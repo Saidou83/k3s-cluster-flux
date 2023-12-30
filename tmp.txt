@@ -1,0 +1,18 @@
+NAMESPACE      NAME                     AGE   READY   STATUS
+cert-manager   cert-manager             49d   True    Release reconciliation succeeded
+default        hajimari                 49d   True    Release reconciliation succeeded
+default        wordpress                25m   False   Helm install failed: values don't meet the specifications of the schema(s) in the following chart(s):...
+kube-system    cilium                   49d   True    Release reconciliation succeeded
+kube-system    coredns                  49d   True    Release reconciliation succeeded
+kube-system    local-path-provisioner   49d   True    Release reconciliation succeeded
+kube-system    metrics-server           49d   True    Release reconciliation succeeded
+kube-system    reloader                 49d   True    Release reconciliation succeeded
+monitoring     grafana                  49d   True    Release reconciliation succeeded
+monitoring     kube-prometheus-stack    49d   False   upgrade retries exhausted
+monitoring     kubernetes-dashboard     49d   True    Release reconciliation succeeded
+networking     cloudflared              49d   True    Release reconciliation succeeded
+networking     echo-server              49d   True    Release reconciliation succeeded
+networking     external-dns             49d   True    Release reconciliation succeeded
+networking     k8s-gateway              49d   True    Release reconciliation succeeded
+networking     nginx-external           49d   True    Release reconciliation succeeded
+networking     nginx-internal           49d   True    Release reconciliation succeeded

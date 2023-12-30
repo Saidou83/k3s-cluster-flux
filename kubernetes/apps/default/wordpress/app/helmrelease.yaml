@@ -24,17 +24,17 @@ spec:
       retries: 3
   uninstall:
     keepHistory: false
-  values:
-    ingress:
-      enabled: true
-      ingressClassName: internal
-      annotations:
-        hajimari.io/icon: simple-icons:wordpress
-      hostname:
-        - &host "wordpress.${SECRET_DOMAIN}"
-      tls:
-        - hosts:
-            - *host
+  # values:
+  #   ingress:
+  #     enabled: true
+  #     ingressClassName: internal
+  #     annotations:
+  #       hajimari.io/icon: simple-icons:wordpress
+  #     hostname:
+  #       - &host "wordpress.${SECRET_DOMAIN}"
+  #     tls:
+  #       - hosts:
+  #           - *host
     # persistence:
     #   enabled: true
     #   storageClassName: local-path
