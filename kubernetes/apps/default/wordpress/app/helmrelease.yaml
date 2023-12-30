@@ -30,7 +30,7 @@ spec:
       ingressClassName: internal
       annotations:
         hajimari.io/icon: simple-icons:wordpress
-      hosts:
+      hostname:
         - &host "wordpress.${SECRET_DOMAIN}"
       tls:
         - hosts:
